@@ -12,15 +12,12 @@ body{
     line-height:1.5;
     scroll-behavior: smooth;
 }
-
-.hero {
+.aboutme {
     background-color: antiquewhite;
     /* width: 100%; */
     min-height: 100vh;
-    display: inline-block;   
-     /* 以上两步窗口切换大小不影响视图浏览 */
+    display: inline-block;
 }
-
 
 .navbar ul{
     float: right;
@@ -39,12 +36,12 @@ body{
     font-weight: bold;
 }
 
-.navbar ul li:hover{
+.navbar ul li a:hover{
     background-color: #b8522a;
     opacity: 0.5;
     padding: 2px;
 }
-.navbar ul li:visited{
+.navbar ul li a:focus{
     color: grey;
 }
 
@@ -55,84 +52,85 @@ body{
     font-size:50px;
     margin-left: 10px;
 }
-.hero .container{
+
+
+.aboutme p{
+    color:#b8522a
+}
+
+.title{
+    font-size: 30px;
+    font-style: italic;
+}
+.detailaboutme{
     padding: 5% 15%
 }
-.tagline{
-    color:rgb(243, 144, 31);
-    font-size: 2rem;
-    letter-spacing: 1px;
-}
 
-.column{
-    color:#b8522a;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 18px;
-}
-
-/* 直接子关系 */
-.column>p{
-    width: 50%;
+.self .content{
+    width: 60%;
     float: left;
-    margin: 20px 0px;
-}
-
-.column ul{
-    width: 50%;
-    float: right;  
+    padding: 20px 20px;
 
 }
-
-.column ul li{
-    width: 50%;
-    float: left;
-    list-style:circle;
- 
+.self .description{
+    margin-top: 50px;
+}
+.self .image{
+    width: 40%;
+    float: right;
+   
 }
 
-.blog{
+.image img{
+    width: 60%;
+    position: relative;
+    padding: 10px;
+    margin: 30px 100px;
+}
+
+.picset{
+    padding:5% 15% ;
+    border: 1px solid black;
+    height: 20px;
+    
+}
+
+.code{
+    background-color: antiquewhite;
+    /* width: 100%; */
     min-height: 100vh;
+    display: inline-block;
 }
 
-.blog .content{
+.future-content{
     padding: 5% 15%;
+    margin-top:40px
 }
-
-.column .post-one{
-    float:right;
+.future{
+    font-size: 80px;
+    float: left;
     width: 50%;
-    margin: 20px 0px;
+    color:cadetblue
+}
+.column2 .description{
+    block:1px solid black;
+    margin-top: 50px;
+    float: right;
+    width: 50%;
+    color:#b8522a
 }
 
-/* 定义字体大小 */
-.blog-heading{
-    font-size: 25px;
-    font-weight: bold;
-}
-.blog-text{
-    font-size: 16px;
-}
-.date{
-    color: grey;
-    font-size: 13px;
-    margin-bottom: 20px;
-}
+
+
 
 footer{
     background-color:#b8522a;
     position: relative;
-  
     color:white
 }
-.footer-content img{
- 
 
-}
 .footer-content {
     text-align: center;
     padding: 5px;
     margin-top:10px
 }
-
-
-
